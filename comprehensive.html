@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+		<meta name="format-detection" content="telephone=no">
+		<script type="text/javascript">
+			(function(doc, win) {
+			    var docEl = doc.documentElement,
+			        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+			        recalc = function() {
+			            var clientWidth = docEl.clientWidth;
+			            if (!clientWidth) return;
+			            if (clientWidth >= 750) {
+			                docEl.style.fontSize = '100px';
+			            } else {
+			                docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+			            }
+			        };
+			
+			    if (!doc.addEventListener) return;
+			    win.addEventListener(resizeEvt, recalc, false);
+			    doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+		<title>综合页</title>
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper.css" />
+	</head>
+	<body>
+		<div class="header clearfix">
+			<dl class="logo clearfix">
+				<dt><a href="#"></a></dt>
+				<dd>教师个人主页</dd>
+			</dl>
+			<div class="menu">
+				<div class="menu_l"></div>
+				<div class="menu_E">
+					<div>
+						<span></span>
+						<ul>
+							<li><a href="#">英文</a></li>
+							<li><a href="#">日语</a></li>
+							<li><a href="#">法语</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="menu_cont menu_cont_1">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li class="on"><a href="#">研究概况</a></li>
+					<li class="on"><a href="#">教师图片</a></li>
+					<li><a href="comprehensive.html">常用链接</a></li>
+					<li><a href="#">教师博客</a></li>
+					<li><a href="#">科研项目</a></li>
+					<li><a href="#">研究方向</a></li>
+					<li><a href="#">教学研究教育部新世纪优秀人才入选者湖南省青年骨干教师入选者2009年度长沙市</a></li>
+				</ul>
+			</div>
+			<div class="menu_cont menu_cont_2">
+				<ul>
+					<li class="prev_level"><a href="#">返回上一级</a></li>
+					<li><a href="structured_contentPage.html">研究概况</a></li>
+					<li><a href="list_image.html">教师图片</a></li>
+					<li><a href="#">常用链接</a></li>
+					<li><a href="#">教师博客中国生物医学工程学会生物医学信息与控制分会委员</a></li>
+					<li><a href="#">科研项目</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="banner">
+			<div class="swiper-container" id="swiper1">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><a href="#"><img src="temp/banner1.jpg"></a></div>
+					<div class="swiper-slide"><a href="#"><img src="temp/banner2.jpg"></a></div>
+					<div class="swiper-slide"><a href="#"><img src="temp/banner3.jpg"></a></div>
+				</div>
+			</div>
+		</div>
+		<div class="mainWrap">
+			<!--照片部分-->
+			<div class="photoWrap clearfix">
+				<div class="photo"><img src="temp/img1.jpg"/></div>
+				<div class="like_teach">
+					<p>张海清</p>
+					<h2>
+						<span></span>
+						<em>+24588</em>
+					</h2>
+				</div>
+				<div class="search clearfix">
+					<input type="text" placeholder="Search"/>
+					<a href="#" class="search_btn"><span></span></a>
+				</div>
+			</div>
+			<!--研究成果-->
+			<div class="main main2">
+				<div class="title3 clearfix">
+					<h2>研究成果</h2><span>/ Research results</span>
+				</div>
+				<div class="content">
+					<div class="comprehensive_div on">
+						<div class="icon1"><h2><i></i><span>教师博客</span></h2><a href="list.html">更多>></a></div>
+						<ul class="list_ul">
+							<li><a href="#">SiC MOS器件界面缺陷及其钝化研究</a></li>
+							<li><a href="#">系统级封装技术工艺加工</a></li>
+							<li><a href="#">新一代半导体SiC材料表面处理技术</a></li>
+						</ul>
+					</div>
+					<div class="comprehensive_div">
+						<div class="icon2"><h2><i></i><span>教学成果</span></h2><a href="list.html">更多>></a></div>
+						<ul class="list_ul">
+							<li><a href="#">同伦方法寻找一个多参数特征值问题方法寻找一个多参数特征值问题的所有解决方案</a></li>
+							<li><a href="#">面向AP-MS数据的蛋白质相互作用网络推断算法研究</a></li>
+							<li><a href="#">基于数据融合的蛋白质鉴定算法研究</a></li>
+						</ul>
+					</div>
+					<div class="comprehensive_div">
+						<div class="icon3"><h2><i></i><span>教学资源</span></h2><a href="list.html">更多>></a></div>
+						<ul class="list_ul">
+							<li><a href="#">同伦方法寻找一个多参数特征值问题方法寻找一个多参数特征值问题的所有解决方案</a></li>
+							<li><a href="#">面向AP-MS数据的蛋白质相互作用网络推断算法研究</a></li>
+							<li><a href="#">基于数据融合的蛋白质鉴定算法研究</a></li>
+						</ul>
+					</div>
+					<div class="comprehensive_div">
+						<div class="icon4"><h2><i></i><span>科研项目 </span></h2><a href="list.html">更多>></a></div>
+						<ul class="list_ul">
+							<li><a href="#">同伦方法寻找一个多参数特征值问题方法寻找一个多参数特征值问题的所有解决方案</a></li>
+							<li><a href="#">面向AP-MS数据的蛋白质相互作用网络推断算法研究</a></li>
+							<li><a href="#">基于数据融合的蛋白质鉴定算法研究</a></li>
+						</ul>
+					</div>
+					<div class="comprehensive_div">
+						<div class="icon5"><h2><i></i><span>论文成果</span></h2><a href="list.html">更多>></a></div>
+						<ul class="list_ul">
+							<li><a href="#">同伦方法寻找一个多参数特征值问题方法寻找一个多参数特征值问题的所有解决方案</a></li>
+							<li><a href="#">面向AP-MS数据的蛋白质相互作用网络推断算法研究</a></li>
+							<li><a href="#">基于数据融合的蛋白质鉴定算法研究</a></li>
+						</ul>
+					</div>
+					<div class="comprehensive_div">
+						<div class="icon6"><h2><i></i><span>教师图片</span></h2><a href="#">更多>></a></div>
+						<ul class="list_ul">
+							<li><a href="#">同伦方法寻找一个多参数特征值问题方法寻找一个多参数特征值问题的所有解决方案</a></li>
+							<li><a href="#">面向AP-MS数据的蛋白质相互作用网络推断算法研究</a></li>
+							<li><a href="#">基于数据融合的蛋白质鉴定算法研究</a></li>
+						</ul>
+					</div>
+					<div class="comprehensive_div">
+						<div class="icon7"><h2><i></i><span>授课信息</span></h2><a href="#">更多>></a></div>
+						<ul class="list_ul">
+							<li><a href="#">同伦方法寻找一个多参数特征值问题方法寻找一个多参数特征值问题的所有解决方案</a></li>
+							<li><a href="#">面向AP-MS数据的蛋白质相互作用网络推断算法研究</a></li>
+							<li><a href="#">基于数据融合的蛋白质鉴定算法研究</a></li>
+						</ul>
+					</div>
+					<div class="comprehensive_div">
+						<div class="icon8"><h2><i></i><span>团队成员</span></h2><a href="#">更多>></a></div>
+						<ul class="list_ul">
+							<li><a href="#">同伦方法寻找一个多参数特征值问题方法寻找一个多参数特征值问题的所有解决方案</a></li>
+							<li><a href="#">面向AP-MS数据的蛋白质相互作用网络推断算法研究</a></li>
+							<li><a href="#">基于数据融合的蛋白质鉴定算法研究</a></li>
+						</ul>
+					</div>
+					<div class="comprehensive_div">
+						<div class="icon9"><h2><i></i><span>学生信息</span></h2><a href="#">更多>></a></div>
+						<ul class="list_ul">
+							<li><a href="#">同伦方法寻找一个多参数特征值问题方法寻找一个多参数特征值问题的所有解决方案</a></li>
+							<li><a href="#">面向AP-MS数据的蛋白质相互作用网络推断算法研究</a></li>
+							<li><a href="#">基于数据融合的蛋白质鉴定算法研究</a></li>
+						</ul>
+					</div>
+					<div class="comprehensive_div">
+						<div class="icon10"><h2><i></i><span>专利信息</span></h2><a href="#">更多>></a></div>
+						<ul class="list_ul">
+							<li><a href="#">同伦方法寻找一个多参数特征值问题方法寻找一个多参数特征值问题的所有解决方案</a></li>
+							<li><a href="#">面向AP-MS数据的蛋白质相互作用网络推断算法研究</a></li>
+							<li><a href="#">基于数据融合的蛋白质鉴定算法研究</a></li>
+						</ul>
+					</div>
+					<div class="comprehensive_div">
+						<div class="icon11"><h2><i></i><span>招生信息</span></h2><a href="#">更多>></a></div>
+						<ul class="list_ul">
+							<li><a href="#">同伦方法寻找一个多参数特征值问题方法寻找一个多参数特征值问题的所有解决方案</a></li>
+							<li><a href="#">面向AP-MS数据的蛋白质相互作用网络推断算法研究</a></li>
+							<li><a href="#">基于数据融合的蛋白质鉴定算法研究</a></li>
+						</ul>
+					</div>
+					<div class="comprehensive_div">
+						<div class="icon12"><h2><i></i><span>著作成果</span></h2><a href="#">更多>></a></div>
+						<ul class="list_ul">
+							<li><a href="#">同伦方法寻找一个多参数特征值问题方法寻找一个多参数特征值问题的所有解决方案</a></li>
+							<li><a href="#">面向AP-MS数据的蛋白质相互作用网络推断算法研究</a></li>
+							<li><a href="#">基于数据融合的蛋白质鉴定算法研究</a></li>
+						</ul>
+					</div>
+					<div class="comprehensive_div">
+						<div class="icon13"><h2><i></i><span>链接列表</span></h2><a href="#">更多>></a></div>
+						<ul class="list_ul">
+							<li><a href="#">同伦方法寻找一个多参数特征值问题方法寻找一个多参数特征值问题的所有解决方案</a></li>
+							<li><a href="#">面向AP-MS数据的蛋白质相互作用网络推断算法研究</a></li>
+							<li><a href="#">基于数据融合的蛋白质鉴定算法研究</a></li>
+						</ul>
+					</div>
+					<div class="comprehensive_div">
+						<div class="icon14"><h2><i></i><span>研究概况</span></h2><a href="#">更多>></a></div>
+						<ul class="list_ul">
+							<li><a href="#">同伦方法寻找一个多参数特征值问题方法寻找一个多参数特征值问题的所有解决方案</a></li>
+							<li><a href="#">面向AP-MS数据的蛋白质相互作用网络推断算法研究</a></li>
+							<li><a href="#">基于数据融合的蛋白质鉴定算法研究</a></li>
+						</ul>
+					</div>
+					<div class="comprehensive_div">
+						<div class="icon15"><h2><i></i><span>研究概况</span></h2><a href="#">更多>></a></div>
+						<ul class="list_ul">
+							<li><a href="#">同伦方法寻找一个多参数特征值问题方法寻找一个多参数特征值问题的所有解决方案</a></li>
+							<li><a href="#">面向AP-MS数据的蛋白质相互作用网络推断算法研究</a></li>
+							<li><a href="#">基于数据融合的蛋白质鉴定算法研究</a></li>
+						</ul>
+					</div>
+					<div class="comprehensive_div">
+						<div class="icon16"><h2><i></i><span>自定义栏目</span></h2><a href="#">更多>></a></div>
+						<ul class="list_ul list_ul2">
+							<li><a href="javascript:void(0);">党员一要讲党性，这是全校党组织学习党章党规和习近平总书记系列重要讲话精神的根本要求。全校党组织包括每一个党支部在这个问题上要硬起来，要在政治上思想上建设党支部，绝不能淡化党员第一身份；二是不能搞“两张皮”，要围绕中心工作发展和建设支部；三是要在有担当、有作为，充分发挥好战斗堡垒和党员先锋模范作用上见实效，建成符合党章要求。</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer_pageView">
+				<dl class="logo_footer clearfix"> 
+					<dt><a href="#"></a></dt>
+					<dd>
+						<div class="clearfix view">
+							<i></i>
+							<span>访问量<em>000000081</em>次&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;华侨大学</span>
+						</div>
+						<div class="pc">
+							<i></i>
+							<a href="#">电脑版</a>
+							<span>最后更新时间 : <em>2017.1.5</em></span>
+						</div>
+					</dd>
+				</dl>
+			</div>
+			<div class="footer_copyRight">
+				<span>版权所有 ©1996-2011 华侨大学    闽ICP备05005476</span>
+				<span>泉州校区地址：福建省泉州市丰泽区城华北路269号 邮编：362021</span>
+				<span>电话：0595-22691947
+				<span>厦门校区地址：福建省厦门市集美区集美大道668号 邮编：361021</span>
+				<span>电话：0592-6160000</span>
+			</div>
+		</div>
+	<script src="js/jquery-1.8.0.min.js"></script>
+	<script src="js/swiper.js"></script>
+	<script src="js/style.js"></script>
+	</body>
+</html>

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+		<meta name="format-detection" content="telephone=no">
+		<script type="text/javascript">
+			(function(doc, win) {
+			    var docEl = doc.documentElement,
+			        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+			        recalc = function() {
+			            var clientWidth = docEl.clientWidth;
+			            if (!clientWidth) return;
+			            if (clientWidth >= 750) {
+			                docEl.style.fontSize = '100px';
+			            } else {
+			                docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+			            }
+			        };
+			
+			    if (!doc.addEventListener) return;
+			    win.addEventListener(resizeEvt, recalc, false);
+			    doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper.css" />
+	</head>
+	<body>
+		<div class="header clearfix">
+			<dl class="logo clearfix">
+				<dt><a href="#"></a></dt>
+				<dd>教师个人主页</dd>
+			</dl>
+			<div class="menu">
+				<div class="menu_l"></div>
+				<div class="menu_E">
+					<div>
+						<span></span>
+						<ul>
+							<li><a href="#">英文</a></li>
+							<li><a href="#">日语</a></li>
+							<li><a href="#">法语</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="menu_cont menu_cont_1">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li class="on"><a href="#">研究概况</a></li>
+					<li class="on"><a href="#">教师图片</a></li>
+					<li><a href="comprehensive.html">常用链接</a></li>
+					<li><a href="#">教师博客</a></li>
+					<li><a href="#">科研项目</a></li>
+					<li><a href="#">研究方向</a></li>
+					<li><a href="#">教学研究教育部新世纪优秀人才入选者湖南省青年骨干教师入选者2009年度长沙市</a></li>
+				</ul>
+			</div>
+			<div class="menu_cont menu_cont_2">
+				<ul>
+					<li class="prev_level"><a href="#">返回上一级</a></li>
+					<li><a href="structured_contentPage.html">研究概况</a></li>
+					<li><a href="list_image.html">教师图片</a></li>
+					<li><a href="#">常用链接</a></li>
+					<li><a href="#">教师博客中国生物医学工程学会生物医学信息与控制分会委员</a></li>
+					<li><a href="#">科研项目</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="banner">
+			<div class="swiper-container" id="swiper1">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><a href="#"><img src="temp/banner1.jpg"></a></div>
+					<div class="swiper-slide"><a href="#"><img src="temp/banner2.jpg"></a></div>
+					<div class="swiper-slide"><a href="#"><img src="temp/banner3.jpg"></a></div>
+				</div>
+			</div>
+		</div>
+		<div class="mainWrap">
+			<div class="photoWrap clearfix">
+				<div class="photo"><img src="temp/img1.jpg"/></div>
+				<div class="like_teach">
+					<p>张海清</p>
+					<h2>
+						<span></span>
+						<em>+24588</em>
+					</h2>
+				</div>
+				<div class="search clearfix">
+					<input type="text" placeholder="Search"/>
+					<a href="#" class="search_btn"><span></span></a>
+				</div>
+			</div>
+			<!--基本信息-->
+			<div class="main main1">
+				<div class="title title-red">
+					<h2 class="down click_on">基本信息</h2>
+				</div>
+				<div class="cont">
+					<div class="info info_div"> 
+						<p>学位 : 博士</p>
+						<p>曾获荣誉 : 宝钢教育基金优秀教师奖</p>
+						<p>第九届辽宁省普通高等学校本科教学名师奖</p>
+						<p>大连理工大学荣誉课程《高等数学》荣誉主讲教师</p>
+						<p>大连理工大学本科生课程教学示范教师</p>
+						<p>中南大学“升华学者”特聘教授</p>
+						<p>教育部新世纪优秀人才入选者</p>
+						<p>湖南省青年骨干教师入选者</p>
+						<p>2009年度长沙市第十一届自然科学优秀学术论文一等奖</p>
+						<p>2011~2013年度中南大学优秀共产党员</p>
+						<p>中南大学2011-2012、2012-2013、2014-2015学年度研究生课堂教学质量优秀奖 </p>
+						<p>性别 : 女</p>
+						<p>毕业院校 : 清华大学</p>
+						<p>在职信息 : 在职</p>
+						<p>所在单位 : 信息与通信工程学院</p>
+						<p>Email : dwang121@dlut.edu.cn</p>
+					</div>
+				</div>
+			</div>
+			<!--个人简介部分-->
+			<div class="resume">
+				<ul>
+					<li class="personal_resume"><a href="javascript:void(0);"><span></span><p class="resume_p1">个人简介</p><p class="resume_p2">Personal Resume</p></a></li>
+					<li class="personal_resume team_members"><a href="javascript:void(0);"><span></span><p class="resume_p1">团队成员</p><p class="resume_p2">Team Members</p></a></li>
+					<li class="education_back"><a href="javascript:void(0);"><span></span><p class="resume_p1">教育经历</p><p class="resume_p2">Education Background</p></a></li>
+					<li class="work_experience"><a href="javascript:void(0);"><span></span><p class="resume_p1">工作经历</p><p class="resume_p2">Work Experience</p></a></li>
+					<li class="research_focus"><a href="javascript:void(0);"><span></span><p class="resume_p1">研究方向</p><p class="resume_p2">Research Focus</p></a></li>
+					<li class="social_affiliations"><a href="javascript:void(0);"><span></span><p class="resume_p1">社会兼职</p><p class="resume_p2">Social Affiliations</p></a></li>
+					<li class="teacher teacher_same"><a href="professional_tutor.html"><span></span><p class="resume_p1">同专业博导</p></a></li>
+					<li class="teacher teacher_dif"><a href="professional_tutor.html"><span></span><p class="resume_p1">同专业硕导</p></a></li>
+				</ul>
+			</div>
+			<div class="tab_div">
+				<!--个人简介-->
+				<div class="main" style="display: block;">
+					<div class="title title2 title-org">
+						<h2>个人简介</h2>
+					</div>
+					<div class="cont">
+						<div class="paragraph_wrap info_div">
+							<p class="paragraph">张海青，博士，教授，博士生导师，教育部新世纪优秀人才。1997年6月本科毕业于中南工业大学应用地球物理专业，2002年4月硕士毕业于中南大学控制理论与控制工程专业，2006年5月博士毕业于中南大学计算机应用技术专业。2007年5月-2009年7月，中南大学湘雅医学院从事博士后研究，2009年7月-2010年8月，美国新泽西理工大学从事博士后研究，2012年7月-2015年9月，先进储能材料国家工程研究中心从事博士后研究。2004年入选湖南省高等学校青年骨干教师培养对象，2006年9月被评为副教授，2012年9月被评为教授。2002年5月-2006年6月，中南大学生物医学工程研究所副所长，2005年12月-2010年10月，中南大学信息物理工程学院副院长，现任中国计算机学会计算机视觉专委会委员，中国生物医学工程学会生物医学信息与控制分会委员。多项式方程组方面，主要考虑利用同伦方法求在机器人设计、机床制造、信号处理、稀疏插值中出现的稀疏、具有特殊结构的（混合三角）多项式方程组的全部解，并将其应用于相关领域；数值代数方面，主要考虑特征值问题、矩阵分解的研究，特征值问题包括两方面：求多参数特征值问题及二次特征值问题全部解及需求解的正问题研究、在振动分析中具有重要的二次特征值反问题研究。</p>
+						</div>
+					</div>
+				</div>
+				<!--团队成员-->
+				<div class="main">
+					<div class="title title2 title-reder">
+						<h2>团队成员</h2>
+					</div>
+					<div class="cont team_warp">
+						<div class="team_cont">
+							<div class="team">
+								<h2>
+									<span class="order">1</span>
+									<span>团队名称 : 极端条件凝聚态物理团队</span>
+								</h2>
+								<div class="team_introd">
+									<h3>团队介绍 : </h3>
+									<p>团队结合计算模拟和实验，采用凝聚态物理的研究手段，针对低维度、辐照、高压、冲击波爆轰等极端条件下的材料问题开展研究。团队包括教授1名，副教授5人，讲师/助理研究员2人，研究生20多人。目前承担国际热核聚变实验堆计划专项项目1项、国防基础科研科学挑战专题1项、国家自然科学基金面上项目2项、重点项目子课题1项、青年基金项目2项。 </p>
+									<div class="swiper-container swiper-container2" id="swiper2">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide"><a href="#"><img src="temp/img2.jpg"><span>刘文恩</span></a></div>
+											<div class="swiper-slide"><a href="#"><img src="temp/img3.jpg"><span>刘文恩</span></a></div>
+											<div class="swiper-slide"><a href="#"><img src="temp/img4.jpg"><span>刘文恩</span></a></div>
+											<div class="swiper-slide"><a href="#"><img src="temp/img2.jpg"><span>刘文恩</span></a></div>
+											<div class="swiper-slide"><a href="#"><img src="temp/img3.jpg"><span>刘文恩</span></a></div>
+											<div class="swiper-slide"><a href="#"><img src="temp/img4.jpg"><span>刘文恩</span></a></div>
+										</div>
+										<div class="swiper-button-next"></div>
+										<div class="swiper-button-prev"></div>
+									</div>
+								</div>
+							</div>
+							<div class="team">
+								<h2>
+									<span class="order">2</span>
+									<span>团队名称 : 极端条件凝聚态物理团队</span>
+								</h2>
+								<div class="team_introd">
+									<h3>团队介绍 : </h3>
+									<p>团队结合计算模拟和实验，采用凝聚态物理的研究手段，针对低维度、辐照、高压、冲击波爆轰等极端条件下的材料问题开展研究。团队包括教授1名，副教授5人，讲师/助理研究员2人，研究生20多人。目前承担国际热核聚变实验堆计划专项项目1项、国防基础科研科学挑战专题1项、国家自然科学基金面上项目2项、重点项目子课题1项、青年基金项目2项。 </p>
+									<div class="swiper-container swiper-container2" id="swiper2">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide"><a href="#"><img src="temp/img2.jpg"><span>刘文恩</span></a></div>
+											<div class="swiper-slide"><a href="#"><img src="temp/img3.jpg"><span>刘文恩</span></a></div>
+											<div class="swiper-slide"><a href="#"><img src="temp/img4.jpg"><span>刘文恩</span></a></div>
+											<div class="swiper-slide"><a href="#"><img src="temp/img2.jpg"><span>刘文恩</span></a></div>
+											<div class="swiper-slide"><a href="#"><img src="temp/img3.jpg"><span>刘文恩</span></a></div>
+											<div class="swiper-slide"><a href="#"><img src="temp/img4.jpg"><span>刘文恩</span></a></div>
+										</div>
+										<div class="swiper-button-next"></div>
+										<div class="swiper-button-prev"></div>
+									</div>
+								</div>
+							</div>	
+						</div>
+					</div>
+				</div>
+				<!--教育经历-->
+				<div class="main">
+					<div class="title title2 title-blue2">
+						<h2>教育经历</h2>
+					</div>
+					<div class="cont">
+						<div class="info_div experience"> 
+							<ul>
+								<li>
+									<h2><em>[1]</em><span>2002.9-2006.5</span></h2>
+									<p><span>中南大学</span>|<span>计算机应用技术</span>|<span>博士学位</span>|<span>博士研究生毕业</span></p>
+								</li>
+								<li>
+									<h2><em>[2]</em><span>1999.9-2002.4</span></h2>
+									<p><span>中南大学</span>|<span>控制理论与控制工程</span>|<span>硕士学位</span>|<span>硕士研究生毕业</span></p>
+								</li>
+								<li>
+									<h2><em>[3]</em><span>1993.9-1997.6</span></h2>
+									<p><span>中南工业大学</span>|<span>应用地球物理专业</span>|<span>学士学位</span>|<span>大学本科毕业</span></p>
+								</li>
+								<li>
+									<h2><em>[4]</em><span>1989.2-1992.12</span></h2>
+									<p><span>中南矿冶学院</span>|<span>采矿工程专业</span>|<span>学士学位</span>|<span>大学本科毕业</span></p>
+								</li>
+								<li>
+									<h2><em>[5]</em><span>1982.2-1984.11</span></h2>
+									<p><span>中南矿冶学院</span>|<span>采矿工程专业</span>|<span>硕士学位</span>|<span>研究生班毕业</span></p>
+								</li>
+								<li>
+									<h2><em>[6]</em><span>1998.9-2000.12</span></h2>
+									<p><span>中南工业大学</span>|<span>采矿工程专业</span>|<span>博士学位</span>|<span>博士研究生毕业</span></p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--工作经历-->
+				<div class="main">
+					<div class="title title2 title-blue1">
+						<h2>工作经历</h2>
+					</div>
+					<div class="cont">
+						<div class="info_div experience"> 
+							<ul>
+								<li>
+									<h2><em>[1]</em><span>2011.1-至今</span></h2>
+									<p><span>信息科学与工程学院</span>|<span>中南大学</span>|<span>教授</span></p>
+								</li>
+								<li>
+									<h2><em>[2]</em><span>2005.12-2011.1</span></h2>
+									<p><span>信息物理工程学院</span>|<span>中南大学</span>|<span>副院长  副教授</span></p>
+								</li>
+								<li>
+									<h2><em>[3]</em><span>2002.4-2005.12</span></h2>
+									<p><span>信息物理工程学院</span>|<span>中南大学</span>|<span>副所长  讲师</span></p>
+								</li>
+								<li>
+									<h2><em>[4]</em><span>1989.2-1992.12</span></h2>
+									<p><span>计算机学院</span>|<span>法国里昂中央理工大学</span>|<span>高级访问学者</span></p>
+								</li>
+								<li>
+									<h2><em>[5]</em><span>2009.7-2010.8</span></h2>
+									<p><span>计算机科学系</span>|<span>美国新泽西理工学院</span>|<span>博士后</span></p>
+								</li>
+								<li>
+									<h2><em>[6]</em><span>1998.9-2000.12</span></h2>
+									<p><span>肿瘤研究所</span>|<span>中南大学湘雅医学院</span>|<span>博士后</span></p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--研究方向-->
+				<div class="main">
+					<div class="title title2 title-yel">
+						<h2>研究方向</h2>
+					</div>
+					<div class="cont">
+						<div class="info_div experience"> 
+							<ul>
+								<li>
+									<h2><em>[1]</em><span>智能材料和结构</span></h2>
+								</li>
+								<li>
+									<h2><em>[2]</em><span>固体力学中的辛方法安全科学理论现代轮机管理工程（2004~，目前主研方向）</span></h2>
+								</li>
+								<li>
+									<h2><em>[3]</em><span>断裂力学国际计算力学协会会员第七届辽宁省力学学会计算力学专业委员会委员 </span></h2>
+								</li>
+								<li>
+									<h2><em>[4]</em><span>振动检测及故障诊断国际期刊《Applied Mathematical Modelling》</span></h2>
+								</li>
+								<li>
+									<h2><em>[5]</em><span>福建省船舶工业行业协会副主任委员 福建省船舶工业行业协会副主任委员</span></h2>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--社会兼职-->
+				<div class="main">
+					<div class="title title2 title-yel">
+						<h2>社会兼职</h2>
+					</div>
+					<div class="cont">
+						<div class="info_div experience"> 
+							<ul>
+								<li>
+									<h2><em>[1]</em><span>2004.4-至今</span></h2>
+									<p><span>美国海运工程师学会会员</span></p>
+								</li>
+								<li>
+									<h2><em>[2]</em><span>2006.6-至今</span></h2>
+									<p><span>日本轮机工程师学会会员</span></p>
+								</li>
+								<li>
+									<h2><em>[3]</em><span>2010.4-2014.8 </span></h2>
+									<p><span>福建省船舶与海洋工程重点实验室主任</span></p>
+								</li>
+								<li>
+									<h2><em>[4]</em><span>2013.6-2016.6</span></h2>
+									<p><span>厦门市科协副主席</span></p>
+								</li>
+								<li>
+									<h2><em>[5]</em><span>2014.6-2015.6</span></h2>
+									<p><span>中南矿冶学院</span></p>
+								</li>
+								<li>
+									<h2><em>[6]</em><span>1998.9-2000.12</span></h2>
+									<p><span>福建省船舶工业行业协会副主任委员 福建省船舶工业行业</span></p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer_pageView">
+				<dl class="logo_footer clearfix">
+					<dt><a href="#"></a></dt>
+					<dd>
+						<div class="clearfix view">
+							<i></i>
+							<span>访问量<em>000000081</em>次&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;华侨大学</span>
+						</div>
+						<div class="pc">
+							<i></i>
+							<a href="#">电脑版</a>
+							<span>最后更新时间 : <em>2017.1.5</em></span>
+						</div>
+					</dd>
+				</dl>
+			</div>
+			<div class="footer_copyRight">
+				<span>版权所有 ©1996-2011 华侨大学    闽ICP备05005476</span>
+				<span>泉州校区地址：福建省泉州市丰泽区城华北路269号 邮编：362021</span>
+				<span>电话：0595-22691947
+				<span>厦门校区地址：福建省厦门市集美区集美大道668号 邮编：361021</span>
+				<span>电话：0592-6160000</span>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	<script src="js/jquery-1.8.0.min.js"></script>
+	<script src="js/swiper.js"></script>
+	<script src="js/style.js"></script>
+	</body>
+</html>
